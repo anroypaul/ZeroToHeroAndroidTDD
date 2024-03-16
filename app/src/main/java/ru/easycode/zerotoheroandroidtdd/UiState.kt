@@ -4,7 +4,7 @@ import android.widget.Button
 import android.widget.TextView
 import java.io.Serializable
 
-interface UiState : Serializable {
+interface UiState {
 
     fun apply(incrementButton: Button, decrementButton: Button, textView: TextView)
 
